@@ -8,11 +8,11 @@ from pathvalidate import sanitize_filename
 from elasticsearch import Elasticsearch
 from time import perf_counter
 
-elastic_id = 'spotifyElastic:dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvOjQ0MyRkOTE5Nzk1NDc1MTg0ZDVmODk0MWQ0YmEyNDNhZDQwOCRmMTMzZjZhY2NmOGU0MDFkODczMWQzNjEyMGM2M2I5Yg=='
-elastic_token = 'zNIdjtGZpcsKJHRSNtMkfweM'
-spotify_id = 'c0864727bf084633bf3716ba635c7bf6'
-spotify_token = 'eb263850b60346d78d1a831f9a9980e6'
-genius_token = 'jA20rR62DETdSZEGUad4hhBuNqT4I-Ts792Np-RaJM5XorzicZ5mCh0JavMm8H2J'
+elastic_id = ''
+elastic_token = ''
+spotify_id = ''
+spotify_token = ''
+genius_token = ''
 
 es = Elasticsearch(
     cloud_id=elastic_id,
