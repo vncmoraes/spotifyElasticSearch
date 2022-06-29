@@ -8,6 +8,7 @@ from pathvalidate import sanitize_filename
 from elasticsearch import Elasticsearch
 from time import perf_counter
 
+# Tokens de autenticação exclusivos do usuário
 elastic_id = ''
 elastic_token = ''
 spotify_id = ''
